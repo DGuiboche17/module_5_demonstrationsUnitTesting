@@ -48,9 +48,6 @@ def prompt_name_greeting()->str:
     Prompts the user for their name and city, and 
     returns a phrase including both values.
 
-    Args:
-        name (int): The first operand.
-        city (int): The second operand.
     Returns:
         str: A greeting with both argument values included.
     """
@@ -70,8 +67,10 @@ def math_operation(operand1: int, operand2: int, operation: str = "+")-> float:
         operand1 (int): The first operand.
         operand2 (int): The second operand.
         operation (str): The operation to perform, default = "+"
+
     Returns:
-        None
+        Float
+
     Raises:
         ValueError:  "Invalid operation." When operation is not + or -.
     """
